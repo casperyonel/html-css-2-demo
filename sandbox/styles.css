@@ -1,0 +1,74 @@
+body {
+    margin: 0x;
+    padding: 0px;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: brown;
+}
+
+#specific-text {
+    font-size: 10px;
+    color: yellow;
+}
+
+p {
+    font-size: 15px;
+    color: blue;
+}
+
+.general-text {
+    font-size: 20px;
+    color: cyan;
+}
+
+.containers {
+    /* position: static; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: space-around;
+    align-items: center; */
+    justify-content: center;
+    /* align-items: space-evenly; */
+    /* justify-content: center; */
+    height: 300px;
+    width: 600px;
+    margin: 50px 0px;
+    background-color: dimgray;
+}
+
+.surrounding-div {
+    /* display: inline-block; */
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+}
+
+#position-div {
+    /* display: inline-block; */
+    /* position: sticky; */
+    height: 50px;
+    width: 50px;
+    /* top: 10px;
+    left: 25px; */
+    background-color: darkorchid;
+}
+
+#content-box, #border-box {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    padding: 10px;
+}
+
+#content-box {
+    box-sizing: content-box;
+    background-color: cornflowerblue;
+}
+
+#border-box {
+    box-sizing: border-box;
+    background-color: chartreuse;
+}
